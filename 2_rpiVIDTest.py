@@ -5,6 +5,8 @@ from datetime import datetime
 VIDEO_DIR = "/media/user/disk/videos"
 FALLBACK_DIR = "/home/user/videos"
 LOG_FILE = "/var/log/rpicam/rpicam.log"
+def main():
+    rpiVIDTest()
 def rpiVIDTest():
     session_ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     os.makedirs(VIDEO_DIR, exist_ok=True)
@@ -30,8 +32,6 @@ def rpiVIDTest():
             end_ts = datetime.now().strftime("%Y%m%d_%H%M%S")
             log.write(f"=== Vid-Test (session {session_ts}, ended {end_ts}) ===\n".encode())
     print(out_file)
-def main():
-    rpiVIDTest()
 if __name__ == "__main__":
     try:
         main()
