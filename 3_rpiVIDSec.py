@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/env python3
 # INDEFINITE recording of 10 minute clips till MIN_FREE_GB or Ctrl-C
 import os, shutil, subprocess
 from datetime import datetime
