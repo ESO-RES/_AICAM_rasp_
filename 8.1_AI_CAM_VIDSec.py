@@ -1,4 +1,3 @@
-# Write your code here :-)
 #!/usr/bin/env python3
 # rpiVIDSecAI.py
 # Continuous recording in fixed 10-minute clips + AI detection + HUMAN_ENTER/HUMAN_EXIT logging
