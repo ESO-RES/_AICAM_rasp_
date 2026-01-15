@@ -13,8 +13,8 @@
 # Requires:
 #   sudo apt install ffmpeg python3-picamera2 python3-opencv
 # Model files:
-#   /home/fry/models/MobileNetSSD_deploy.prototxt
-#   /home/fry/models/MobileNetSSD_deploy.caffemodel
+#   deploy.prototxt
+#   mobilenet_iter_73000.caffemodel
 
 import os
 import time
