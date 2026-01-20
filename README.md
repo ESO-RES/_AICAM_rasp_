@@ -1,13 +1,14 @@
 # AICAM (Raspberry Pi) 
 
-UPDATED: 1/20/2026
+# UPDATED: 1/20/2026
 
-PLANNING: 
+# PLANNING: 
 1. Single authoritative storage path selection logic
 2. Unified logging configuration (paths, rotation, verbosity)
 3. Consistent directory layout for all artifacts
 4. Systemd units with explicit mount dependencies and sandboxing rules
 
+# _rasp_
 Event-Driven Camera + Offline Vision Pipelines + Hardening
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2dc64401-6ed9-49e3-bba4-9d7519e9a8c7" />
