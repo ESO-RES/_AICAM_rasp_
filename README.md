@@ -11,7 +11,7 @@ PLANNING:
 #
 Event-Driven Camera + Offline Vision Pipelines + Hardening
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2dc64401-6ed9-49e3-bba4-9d7519e9a8c7" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ffea52e5-0537-47b4-baf3-cd00094a8363" />
 
 
 AICAM is a set of Raspberry Pi camera pipelines designed around a small number of strict principles:
