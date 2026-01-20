@@ -1,5 +1,8 @@
 # AICAM (Raspberry Pi) — Event-Driven Camera + Offline Vision Pipelines
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2dc64401-6ed9-49e3-bba4-9d7519e9a8c7" />
+
+
 AICAM is a set of Raspberry Pi camera pipelines designed around a small number of strict principles:
 
 - **Offline-first** — no cloud dependency or required network access
