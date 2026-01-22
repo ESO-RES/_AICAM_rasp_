@@ -253,3 +253,9 @@ Refer to **OPERATIONS.md** for authoritative, step-by-step execution guidance.
 ![image](https://github.com/user-attachments/assets/dcc26235-be04-41bb-84ae-3902600018cd)
 
 ![image](https://github.com/user-attachments/assets/dd06c316-92c9-4763-a803-1f25bb807076)
+
+![image](https://github.com/user-attachments/assets/235b4891-0940-4961-9b10-382b6cd75261)
+
+
+
+
