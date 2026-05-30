@@ -85,6 +85,18 @@ These pipelines perform on-device inference using Picamera2 and OpenCV.
   Human detection pipeline; usage and tuning details are documented
   in the file header.
 
+- `_10_AICAM_Faces.py`  
+  Face/head detection pipeline using the dedicated res10 SSD model.
+
+- `_11_AICAM_Animals.py`  
+  Non-bird animal detection (cat, dog, horse, etc.) using MobileNet-SSD.
+
+- `_12_AICAM_Birds.py`  
+  Bird-feeder recorder with rotating event logging.
+
+- `_13.2_AICAM_Drones_Legacy.py` (and `_13.1_DRONE_TUNING_Legacy.md`)  
+  Legacy drone detection + motion-gating + tuning guide (Caffe MobileNet-SSD).
+
 These scripts represent the **legacy AI path** and remain for validation and comparison.
 
 ---
