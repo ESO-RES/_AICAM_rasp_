@@ -1,6 +1,6 @@
-# Install via apt-get: 
-# python3-opencv
-# python3-picamera2
-
+# Runtime dependencies installed with pip
 numpy>=1.24
 onnxruntime>=1.16
+
+# System packages required on Raspberry Pi OS:
+#   sudo apt install python3-opencv python3-picamera2
