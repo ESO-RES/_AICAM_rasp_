@@ -68,9 +68,9 @@ def _setup_logger(base: str) -> logging.Logger:
 # -----------------------------
 # Storage
 # -----------------------------
-MOUNT = "/media/usr/disk"
+MOUNT = "/media/user/disk"
 BASE_SUBDIR = "birdcam"
-FALLBACK_DIR = "/home/usr/birdcam"
+FALLBACK_DIR = "/home/user/birdcam"
 TMP_SUBDIR = "tmp"
 EVENT_LOG_NAME = "events.log"
 
@@ -108,7 +108,7 @@ COLOR_WARN = (40, 180, 255)
 # -----------------------------
 # AI model (Caffe MobileNet-SSD)
 # -----------------------------
-MODEL_DIR = "/home/usr/models"  # <-- change if needed
+MODEL_DIR = "/home/user/models"  # <-- change if needed
 PROTOTXT = os.path.join(MODEL_DIR, "deploy.prototxt")
 CAFFEMODEL = os.path.join(MODEL_DIR, "mobilenet_iter_73000.caffemodel")
 
