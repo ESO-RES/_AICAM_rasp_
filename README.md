@@ -2,7 +2,7 @@
 
 UPDATED:5/30/2026
 
-PLANNING: [For Non-Legacy]
+PLANNING: [AICAM 2.0]
 1. Single authoritative storage path selection logic
 2. Unified logging configuration (paths, rotation, verbosity)
 3. Consistent directory layout for all artifacts
