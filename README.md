@@ -94,7 +94,7 @@ These pipelines perform on-device inference using Picamera2 and OpenCV.
 - `_12_AICAM_Birds.py`  
   Bird-feeder recorder with rotating event logging.
 
-- `_13.2_AICAM_Drones_Legacy.py` (and `_13.1_DRONE_TUNING_Legacy.md`)  
+- `_13.2_AICAM_Drones_Legacy.py` 
   Legacy drone detection + motion-gating + tuning guide (Caffe MobileNet-SSD).
 
 These scripts represent the **legacy AI path** and remain for validation and comparison.
