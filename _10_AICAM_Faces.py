@@ -45,10 +45,10 @@ from picamera2 import MappedArray
 # -----------------------------
 # Storage (match HUMANCAM pattern)
 # -----------------------------
-MOUNT = "/media/usr/disk"
+MOUNT = "/media/user/disk"
 BASE_SUBDIR = "facecam"
 TMP_SUBDIR = "tmp"
-FALLBACK_DIR = "/home/usr/facecam"
+FALLBACK_DIR = "/home/user/facecam"
 
 EVENT_LOG_NAME = "events.log"
 MIN_FREE_GB = 10.0
@@ -82,7 +82,7 @@ COLOR_OK = (80, 220, 80)
 # -----------------------------
 # AI model (Caffe face detector)
 # -----------------------------
-MODEL_DIR = "/home/usr/models"  # <-- change if needed
+MODEL_DIR = "/home/user/models"  # <-- change if needed
 PROTOTXT = os.path.join(MODEL_DIR, "deployFace.prototxt")
 CAFFEMODEL = os.path.join(MODEL_DIR, "res10_300x300_ssd_iter_140000.caffemodel")
 
