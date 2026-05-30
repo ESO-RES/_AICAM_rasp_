@@ -35,7 +35,7 @@ from picamera2.outputs import FfmpegOutput
 # -----------------------------
 MOUNT = "/media/user/disk"
 VIDEO_SUBDIR = "videos"
-FALLBACK_DIR = "/home/usr/videos"
+FALLBACK_DIR = "/home/user/videos"
 EVENT_LOG_NAME = "events.log"
 SESSION_META_NAME = "session_meta.json"
 
@@ -58,7 +58,7 @@ HEADER_H = 70
 # -----------------------------
 # AI model (Caffe MobileNet-SSD)
 # -----------------------------
-MODEL_DIR = "/home/usr/models"
+MODEL_DIR = "/home/user/models"
 PROTOTXT = os.path.join(MODEL_DIR, "deploy.prototxt")
 CAFFEMODEL = os.path.join(MODEL_DIR, "mobilenet_iter_73000.caffemodel")
 
