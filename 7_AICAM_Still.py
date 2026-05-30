@@ -30,14 +30,14 @@ from picamera2 import Picamera2
 # -----------------------------
 # Storage
 # -----------------------------
-MOUNT = "/media/usr/disk"
+MOUNT = "/media/user/disk"
 OUT_SUBDIR = "images"
-FALLBACK_DIR = "/home/usr/images"
+FALLBACK_DIR = "/home/user/images"
 
 # -----------------------------
 # Model files
 # -----------------------------
-MODEL_DIR = "/home/usr/models"
+MODEL_DIR = "/home/user/models"
 PROTOTXT = os.path.join(MODEL_DIR, "deploy.prototxt")
 CAFFEMODEL = os.path.join(MODEL_DIR, "mobilenet_iter_73000.caffemodel")
 
